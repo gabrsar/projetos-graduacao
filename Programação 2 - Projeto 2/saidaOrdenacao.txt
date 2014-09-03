@@ -1,0 +1,82 @@
+Arquivo de Resultados - Comparação de Ordenação de Vetores
+
+LEGENDA: N.E.O. = Número de Elementos Ordenados
+
+TEMPO DE TRABALHO DAS FUNÇÕES: 2.00s
+
+Testes:
+
+
+MÉTODO:Bolha
+N.E.O.: 2000       Tempo:0.03s
+N.E.O.: 4000       Tempo:0.12s
+N.E.O.: 6000       Tempo:0.27s
+N.E.O.: 8000       Tempo:0.48s
+N.E.O.: 10000      Tempo:0.75s
+N.E.O.: 12000      Tempo:1.07s
+N.E.O.: 14000      Tempo:1.46s
+N.E.O.: 16000      Tempo:1.91s
+N.E.O.: 18000      Tempo:2.41s
+Número total de elementos (alocação + criar elementos aleatórios + ordenação): 90000 em 8.50s
+
+MÉTODO:Seleção
+N.E.O.: 18000      Tempo:0.79s
+N.E.O.: 20000      Tempo:0.99s
+N.E.O.: 22000      Tempo:1.19s
+N.E.O.: 24000      Tempo:1.42s
+N.E.O.: 26000      Tempo:1.66s
+N.E.O.: 28000      Tempo:1.94s
+N.E.O.: 30000      Tempo:2.21s
+Número total de elementos (alocação + criar elementos aleatórios + ordenação): 258000 em 10.21s
+
+MÉTODO:Inserção
+N.E.O.: 30000      Tempo:1.82s
+N.E.O.: 32000      Tempo:2.07s
+Número total de elementos (alocação + criar elementos aleatórios + ordenação): 320000 em 3.89s
+
+MÉTODO:ShellSort
+N.E.O.: 32000      Tempo:0.82s
+N.E.O.: 34000      Tempo:0.93s
+N.E.O.: 36000      Tempo:1.03s
+N.E.O.: 38000      Tempo:1.15s
+N.E.O.: 40000      Tempo:1.29s
+N.E.O.: 42000      Tempo:1.41s
+N.E.O.: 44000      Tempo:1.55s
+N.E.O.: 46000      Tempo:1.69s
+N.E.O.: 48000      Tempo:1.84s
+N.E.O.: 50000      Tempo:2.00s
+Número total de elementos (alocação + criar elementos aleatórios + ordenação): 730000 em 13.73s
+
+MÉTODO:MergeSort
+N.E.O.: 50000      Tempo:0.02s
+N.E.O.: 250000     Tempo:0.15s
+N.E.O.: 450000     Tempo:0.29s
+N.E.O.: 650000     Tempo:0.43s
+N.E.O.: 850000     Tempo:0.57s
+N.E.O.: 1050000    Tempo:0.70s
+N.E.O.: 1250000    Tempo:0.85s
+N.E.O.: 1450000    Tempo:1.01s
+N.E.O.: 1650000    Tempo:1.14s
+N.E.O.: 1850000    Tempo:1.27s
+N.E.O.: 2050000    Tempo:1.40s
+N.E.O.: 2250000    Tempo:1.56s
+N.E.O.: 2450000    Tempo:1.73s
+N.E.O.: 2650000    Tempo:1.86s
+N.E.O.: 2850000    Tempo:2.04s
+Número total de elementos (alocação + criar elementos aleatórios + ordenação): 22480000 em 15.48s
+
+MÉTODO:QuickSort
+N.E.O.: 3048000    Tempo:1.11s
+N.E.O.: 3248000    Tempo:1.18s
+N.E.O.: 3448000    Tempo:1.26s
+N.E.O.: 3648000    Tempo:1.33s
+N.E.O.: 3848000    Tempo:1.41s
+N.E.O.: 4048000    Tempo:1.50s
+N.E.O.: 4248000    Tempo:1.57s
+N.E.O.: 4448000    Tempo:1.65s
+N.E.O.: 4648000    Tempo:1.73s
+N.E.O.: 4848000    Tempo:1.81s
+N.E.O.: 5048000    Tempo:1.88s
+N.E.O.: 5248000    Tempo:1.97s
+N.E.O.: 5448000    Tempo:2.04s
+Número total de elementos (alocação + criar elementos aleatórios + ordenação): 77704000 em 21.70s

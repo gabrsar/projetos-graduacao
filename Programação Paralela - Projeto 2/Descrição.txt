@@ -1,0 +1,10 @@
+Projeto 2 - :::
+Escreva um programa para ordenação de valores inteiros armazenados em um vetor. A ordenação deve ser feita usando a estratégia de merge-sort empregada no primeiro projeto, porém agora usando o modelo bag-of-tasks programado em MPI.
+ 
+O vetor, independente de tamanho e do número de máquinas paralelas, deverá ser particionado em partes com no máximo 5000 elementos na primeira fase (ordenação).
+ 
+A ordenação usará o algoritmo BOLHA (obrigatoriamente). O coordenador das tarefas será responsável por, a cada fase de merge, enviar como nova tarefa dois vetores recebidos da fase anterior para uma das máquinas.
+ 
+Seu programa deve escrever o resultado final em um arquivo de saída (ordenado.txt). Para análise de desempenho seu sistema deve ser testado com vetores de 200, 400, 800, 1600 mil elementos, usando 1, 2, 4, 8 e 16 máquinas.
+ 
+Seu programa deve ser executado no cluster do GSPD. Para isso providencie uma conta para acesso remoto ao cluster. 

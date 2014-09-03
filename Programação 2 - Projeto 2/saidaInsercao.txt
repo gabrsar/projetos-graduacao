@@ -1,0 +1,24 @@
+Arquivo de Resultados - Comparação de Métodos de Buscas
+
+TEMPO DE TRABALHO DA(S) FUNÇÃO/FUNÇÕES: 1.00s
+
+Testes:
+
+Tamanho:            2000 - Buscas:5000 - Sequencial: 0.04s - Binária(Inserção): 0.01s - Melhor:Binária
+Tamanho:            4000 - Buscas:5000 - Sequencial: 0.10s - Binária(Inserção): 0.03s - Melhor:Binária
+Tamanho:            6000 - Buscas:5000 - Sequencial: 0.15s - Binária(Inserção): 0.07s - Melhor:Binária
+Tamanho:            8000 - Buscas:5000 - Sequencial: 0.20s - Binária(Inserção): 0.13s - Melhor:Binária
+Tamanho:           10000 - Buscas:5000 - Sequencial: 0.24s - Binária(Inserção): 0.20s - Melhor:Binária
+Tamanho:           12000 - Buscas:5000 - Sequencial: 0.29s - Binária(Inserção): 0.30s - Melhor:Sequencial
+Tamanho:           14000 - Buscas:5000 - Sequencial: 0.34s - Binária(Inserção): 0.40s - Melhor:Sequencial
+Tamanho:           16000 - Buscas:5000 - Sequencial: 0.39s - Binária(Inserção): 0.51s - Melhor:Sequencial
+Tamanho:           18000 - Buscas:5000 - Sequencial: 0.44s - Binária(Inserção): 0.66s - Melhor:Sequencial
+Tamanho:           20000 - Buscas:5000 - Sequencial: 0.48s - Binária(Inserção): 0.81s - Melhor:Sequencial
+Tamanho:           22000 - Buscas:5000 - Sequencial: 0.53s - Binária(Inserção): 0.98s - Melhor:Sequencial
+Tamanho:           24000 - Buscas:5000 - Sequencial: 0.58s - Binária(Inserção): 1.16s - Melhor:Sequencial
+Pesquisa Binária foi mais rapida em: 5 de 12 dos testes. 41.67%
+
+Pesquisa Sequencial foi mais rapida em: 7 de 12 dos testes. 58.33%
+
+Empate em: 0 de 12 dos testes. 0.00%
+

@@ -1,0 +1,219 @@
+kturtle-script-v1.0
+#Metodo que desenha uma circunferencia recebendo um tamanho de raio.
+@(learn) circulo $r { 
+  @(penup)
+  @(forward) $r
+  
+  #Calcula o tamanho total da circunferencia
+  $t=$r*(3.141516*2)
+  #Numero de lados
+  $l = 20
+  #Angulo de giro por passo
+  $a = 360/$l
+  
+  #Desenha a circunferencia
+
+  @(pendown)
+
+  #Rotaciona a tartaruga para iniciar o desenho por "cima"
+  @(turnright) 90
+  @(forward) ($t/$l)/2
+
+  #Desenha a circunferencia.
+  @(repeat) $l-1 {
+    @(turnright) $a
+    @(forward) $t/$l
+  }
+  @(turnright) $a
+
+  @(forward) ($t/$l)/2
+  #Retorna a tartaruga para a posicao inicial	
+  @(turnleft) 90
+  @(penup)  
+  @(backward) $r
+  @(pendown)  
+}
+
+#Funcao para desenhar Toroide colorido, recebe como parametro o raio do centro ou raio branco ($rC), a grossura do toroide ($g) a cor de inicio (RGB 0) e a cor final (RGB 1)
+@(learn) toroide $rC@(,)$g@(,)$r0@(,)$g0@(,)$b0@(,)$r1@(,)$g1@(,)$b1 {
+  
+  #Numero de circulos que vao compor o toroide
+  $interacoes = 36
+  #Angulo de giro
+  $a = 360/$interacoes
+  
+  #Calcula a variacao de cada cor do RGB
+  $rD = ($r1-$r0)/$interacoes #Vermelho
+  $gD = ($g1-$g0)/$interacoes #Verde
+  $bD = ($b1-$b0)/$interacoes #Azul
+
+
+  #Desenha o toroide
+  @(for) $i=0 @(to) $interacoes {
+    
+    #Ergue a caneta  para posicionar sem ficar o risco do raio
+    @(penup)
+    @(forward) $rC+$g
+
+    
+    #Troca a cor do circulo conforme o toroide eh feito
+    @(pencolor) $r0+($rD*$i)@(,)$g0+($gD*$i)@(,)$b0+($bD*$i)
+
+    #Desenha o circulo
+    circulo $g
+
+    #Ergue a caneta  para posicionar sem ficar o risco do raio
+    @(penup)  
+    
+    @(backward) $rC+$g
+    
+    #Giro para fazer a proxima circunferencia...
+    @(turnleft) $a
+
+  }
+  #Retorna a tartaruga para o angulo correto
+  @(turnright) $a  
+}#Fim do toroide
+
+
+#Funcao de desenha a expiral com um toroide em cada vertice recebendo como parametro o numero de "lados" ($l) , a variação no espassamento de cada lado ($e) e o tamanho inicial de caminho ($t)
+@(learn) espiral $l@(,)$e@(,)$t {
+
+  #Define o numero de lados
+  $lados = 6
+  #Define o angulo de giro. Antes era utilizada a formula 360/$lados, mais não é compativel com a estrutura do desenho apresentado como projeto.
+  $a = 57
+  
+  #Controladora da quantidade de movimento da tartaruga
+  $andar = $t
+
+  #Define os parametros inicias ( Para desenhar por fora ) como os maiores.
+
+  $rCentroTInicial = 24 #Raio do centro do toroide (circulo branco no meio do toroide)
+  $rCentroTVariacao = -2 #Variação do raio do toroide
+
+  $rCentroT=$rCentroTInicial 
+
+  $rCirculoTInicial = 32 #Raio do circulo (grossura) do toroide.
+  $rCirculoTVariacao = -3.2 #Variação da grossura do toroide.
+
+  $rCirculoT=$rCirculoTInicial
+
+  $j=0 #Variavel para "burlar" a aritimetica do Ktutle de realizar a divisão sem resto.
+
+  #Desenha as circunferencias que geram o toroide
+  @(for) $i=1 @(to) $l {
+
+    #Só executa enquanto ele puder andar alguma coisa significativa. (para não desenhar um circulo exatamente sobre o outro)
+    @(if) ( $andar > 0 ){      
+      
+      #Gerencia as cores dos toroides
+      #Zera o contador (x%3)
+
+      # INICIO
+      $r0=0
+      $g0=0
+      $b0=0
+      # FINAL
+      $r1=0
+      $g1=0
+      $b1=0
+
+      #Reinicia o ciclo de cor a cada 3 passos
+      @(if) ($j>2){
+        $j=0 
+      }
+
+      @(if)($j == 0 ){ #Vermelho
+
+        #Cores iniciais...
+        $r0=255
+        $g0=0 
+        $b0=0
+        #Cores Finais...
+        $r1=255
+        $g1=255
+        $b1=255
+
+      } @(else) @(if)($j == 1 ){#Azul
+
+        $r0=0
+        $g0=0
+        $b0=255
+
+        $r1=255
+        $g1=255
+        $b1=255
+
+      } @(else) @(if)($j == 2 ){#Verde
+
+        $r0=0
+        $g0=255
+        $b0=0
+
+        $r1=255
+        $g1=255
+        $b1=255
+
+      }
+      
+      #Corre o passo.
+      $j=$j+1
+
+      #Desenha o toroide
+      $k=90 #Constante para deixar os toroides alinhados como no desenho
+      @(turnleft) $k #Giro de alinhamento.
+    
+      #Desenha o circulo
+      toroide $rCentroT@(,)$rCirculoT@(,)$r1@(,)$g1@(,)$b1@(,)$r0@(,)$g0@(,)$b0
+
+      @(turnleft) $k*-1
+      #Corrige a espessura do toroide
+      $rCirculoT = $rCirculoT  + $rCirculoTVariacao
+
+      #Corrige o raio do toroide
+      $rCentroT =$rCentroT + $rCentroTVariacao
+
+      @(forward) $andar 
+      $andar = $andar - $e
+
+      #If para poder alterar a posição do ultimo circulo.
+      @(if) ( $i == ($l-1) ) {
+        @(turnright) $a*1.5
+      } @(else) {
+        @(turnright) $a
+      }
+      
+    }
+      
+    
+  
+  }
+  #Desenha ultimo circulo preto.
+  toroide 3@(,)3@(,)0@(,)0@(,)0@(,)255@(,)255@(,)255
+  
+}
+
+
+#Inicia o desenho do projeto.
+@(reset)
+
+@(penwidth) 2
+
+@(canvassize) 500@(,)500
+
+@(go) 410@(,)250
+
+@(pendown)
+#Rotaciona a tartaruga par atingir o angulo do desenho
+@(turnleft) 147
+#Desenha o projeto
+espiral 10@(,)17@(,)182
+@(forward) 20
+@(turnleft) 20
+
+
+#toroide 10,30,255,0,0,255,255,255
+#center
+
+#circulo 50

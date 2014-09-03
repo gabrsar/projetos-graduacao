@@ -1,0 +1,23 @@
+Arquivo de Resultados - Comparação de Métodos de Buscas
+
+TEMPO DE TRABALHO DA(S) FUNÇÃO/FUNÇÕES: 1.00s
+
+Testes:
+
+Tamanho:            2000 - Buscas:10000 - Sequencial: 0.09s - Binária(Seleção): 0.02s - Melhor:Binária
+Tamanho:            4000 - Buscas:10000 - Sequencial: 0.19s - Binária(Seleção): 0.04s - Melhor:Binária
+Tamanho:            6000 - Buscas:10000 - Sequencial: 0.29s - Binária(Seleção): 0.10s - Melhor:Binária
+Tamanho:            8000 - Buscas:10000 - Sequencial: 0.38s - Binária(Seleção): 0.16s - Melhor:Binária
+Tamanho:           10000 - Buscas:10000 - Sequencial: 0.49s - Binária(Seleção): 0.24s - Melhor:Binária
+Tamanho:           12000 - Buscas:10000 - Sequencial: 0.58s - Binária(Seleção): 0.36s - Melhor:Binária
+Tamanho:           14000 - Buscas:10000 - Sequencial: 0.68s - Binária(Seleção): 0.48s - Melhor:Binária
+Tamanho:           16000 - Buscas:10000 - Sequencial: 0.78s - Binária(Seleção): 0.63s - Melhor:Binária
+Tamanho:           18000 - Buscas:10000 - Sequencial: 0.87s - Binária(Seleção): 0.81s - Melhor:Binária
+Tamanho:           20000 - Buscas:10000 - Sequencial: 0.97s - Binária(Seleção): 0.98s - Melhor:Sequencial
+Tamanho:           22000 - Buscas:10000 - Sequencial: 1.07s - Binária(Seleção): 1.19s - Melhor:Sequencial
+Pesquisa Binária foi mais rapida em: 9 de 11 dos testes. 81.82%
+
+Pesquisa Sequencial foi mais rapida em: 2 de 11 dos testes. 18.18%
+
+Empate em: 0 de 11 dos testes. 0.00%
+

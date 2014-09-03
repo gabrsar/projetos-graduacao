@@ -1,0 +1,1 @@
+gcc nucleo.c disk.c lista.c exibicao.c main.c bcp.h -o fsc2 -std=c99 -lpthread -D _BSD_SOURCE

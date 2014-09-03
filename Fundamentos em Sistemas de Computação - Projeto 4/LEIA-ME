@@ -1,0 +1,26 @@
+Olá professor, boa tarde.
+
+Fiz o projeto e testei bastante. Acredito que não haja problemas.
+
+Quando a implementação das transformações das classes D e E eu não implementei pois não encontrei nada que me desse um embasamento para tal.
+Tudo que achei sobre elas é que são para multicast e reservadas para uso futuro respectivamente. Mas deixei o programa todo pronto para receber as transformações caso eu encontrasse as regras de ultima hora, mas não achei.
+
+Para compilar: gcc main.c -o exec -std=c99 -Wall
+
+O programa funciona com parametros. Assim é necessário passar o nome do arquivo com a entrada e o arquivo para saida dos resultados.
+Ex:
+
+programa in.txt ou.txt
+
+
+Comentei bem o projeto então acredito que não haja problemas para entender o que foi feito.
+
+Quando ao projeto, infelizmente tive de fazer sozinho por divergencias com o Igor, assim como no terceiro projeto. Acredito que ele tenha enviado o dele também e espero que isso não cause nenhuma perda de pontos para nós dois.
+
+Boa correção.
+
+Atenciosamente.
+Gabriel Saraiva.
+
+
+

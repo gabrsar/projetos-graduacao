@@ -1,0 +1,23 @@
+3º Projeto de Fundamentos em Sistemas de Computação.
+----------------------------------------------------
+
+Professor: 	Dr. Aleardo Manacero Jr. 
+Aluno:		Gabriel Henrique Martinez Saraiva
+		
+Explicação do projeto:
+
+Esse texto representa uma mensagem a ser transmitida entre uma thread e outra, através do uso de pacotes.
+Utilizando o algoritmo de controle Sliding Window, é possivel manter um maior uso da banda, principalmente
+em situações onde o tempo de espera é alto. 
+
+
+Esse arquivo é opicional. Caso o projeto não o encontre ele irá utilizar uma mensagem padrão embutida no código fonte (letras do alfabeto).
+
+Espero que o projeto funcione como deve, e que o professor me perdoe pelo atraso na entrega.
+
+O projeto foi testado e testado várias vezes, além de ter sido feito com muita dedicação. :)
+
+Uma excelente correção.
+
+Gabriel.
+

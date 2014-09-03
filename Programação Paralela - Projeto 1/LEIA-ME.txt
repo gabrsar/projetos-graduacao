@@ -1,0 +1,31 @@
+### Para compilar ###
+$./compilar.sh
+
+### Para executar um exemplo simples ###
+
+Adicione os endereços dos servidores em hosts.dat
+
+Para cada servidor em host.dat, execute-o com a porta especificada. 
+
+Exemplo:
+Em um terminal execute: ./serverExe 7000
+
+
+Para executar o cliente, chave o executavel clientExe com o tamanho do vetor desejado.
+
+Exemplo:/clientExe 1600000
+
+Ele irá tentar se conectar com os servidores do arquivo hosts.dat e gravará seus resultados em ordenado.txt. Fará um profile simples de sua execução em profile.txt
+
+### Para rodar a bateria de testes em 1 host ###
+Execute em um host o script loadservers.sh
+
+Após isso execute em um terminal o runner.sh. Ele utiliza o HOSTS_LIST para gerar versões do hosts.dat com o número de servidores variavel.
+
+Para finalizar os servidores execute o script killservers.sh
+
+### Para rodar a bateria de testes em um cluster ###
+Execute um servidor por host com uma porta desejada.
+Edite o arquivo HOSTS_LIST para os servidores e portas que iniciou.
+
+Execute o arquivo runner.sh

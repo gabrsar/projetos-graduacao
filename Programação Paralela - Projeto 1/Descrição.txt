@@ -1,0 +1,11 @@
+Projeto - Merge-Sort com cliente-servidor :::
+ 
+ 
+Escreva um programa para ordenação de valores inteiros armazenados em um vetor. A ordenação deve ser feita usando o modelo cliente-servidor com sockets, em que um cliente fará uso de múltiplos servidores remotos, enviando parte do vetor a cada servidor.
+ 
+O vetor, independente de tamanho e do número de servidores, deverá ser particionado em 32 partes, sendo cada parte enviada separadamente para o servidor que for seu destino.
+ 
+Os servidores deverão retornar o vetor recebido, agora ordenado usando o algoritmo BOLHA (obrigatoriamente). O cliente deve então fazer o merge dos vetores recebidos.
+ 
+Seu programa deve ser capaz de ler os endereços dos servidores a partir de um arquivo de configuração (hosts.dat) e escrever o resultado final em um arquivo de saída (ordenado.txt). Para análise de desempenho seu sistema deve ser testado com vetores de 200, 400, 800, 1600 mil elementos, usando 1, 2, 4 e 8 servidores.
+  

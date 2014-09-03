@@ -1,0 +1,5 @@
+Projeto 2 :::
+
+Escreva um programa que apresente uma tabela de conversão entre duas medidas de consumo de combustível bastante usadas, que são quilometros por litro e milhas por galão. Sua tabela deve ser construída em duas etapas. A primeira tendo como base quilometros por litro, entre 2km/l e 20km/l. A segunda tendo como base milhas por galão, entre 10mpg e 40mpg. Nas duas bases deve-se usar uma unidade como discretização da tabela. Use também o galão como valendo 3,7 litros.
+
+ENTREGA EM: 30/04/2008, por e-mail para aleardo@sjrp.unesp.br e também para seu monitor

@@ -1,0 +1,41 @@
+Arquivo de Resultados - Comparação de Métodos de Buscas
+
+TEMPO DE TRABALHO DA(S) FUNÇÃO/FUNÇÕES: 2.00s
+
+Testes:
+
+Tamanho:            2000 - Buscas:140 - Sequencial: 0.00s - Binária(MergeSort): 0.00s - Melhor:Empate
+Tamanho:          102000 - Buscas:140 - Sequencial: 0.07s - Binária(MergeSort): 0.06s - Melhor:Binária
+Tamanho:          202000 - Buscas:140 - Sequencial: 0.14s - Binária(MergeSort): 0.12s - Melhor:Binária
+Tamanho:          302000 - Buscas:140 - Sequencial: 0.21s - Binária(MergeSort): 0.19s - Melhor:Binária
+Tamanho:          402000 - Buscas:140 - Sequencial: 0.28s - Binária(MergeSort): 0.26s - Melhor:Binária
+Tamanho:          502000 - Buscas:140 - Sequencial: 0.35s - Binária(MergeSort): 0.33s - Melhor:Binária
+Tamanho:          602000 - Buscas:140 - Sequencial: 0.42s - Binária(MergeSort): 0.39s - Melhor:Binária
+Tamanho:          702000 - Buscas:140 - Sequencial: 0.49s - Binária(MergeSort): 0.48s - Melhor:Binária
+Tamanho:          802000 - Buscas:140 - Sequencial: 0.56s - Binária(MergeSort): 0.54s - Melhor:Binária
+Tamanho:          902000 - Buscas:140 - Sequencial: 0.63s - Binária(MergeSort): 0.61s - Melhor:Binária
+Tamanho:         1002000 - Buscas:140 - Sequencial: 0.71s - Binária(MergeSort): 0.67s - Melhor:Binária
+Tamanho:         1102000 - Buscas:140 - Sequencial: 0.77s - Binária(MergeSort): 0.75s - Melhor:Binária
+Tamanho:         1202000 - Buscas:140 - Sequencial: 0.84s - Binária(MergeSort): 0.83s - Melhor:Binária
+Tamanho:         1302000 - Buscas:140 - Sequencial: 0.91s - Binária(MergeSort): 0.91s - Melhor:Empate
+Tamanho:         1402000 - Buscas:140 - Sequencial: 0.98s - Binária(MergeSort): 0.98s - Melhor:Empate
+Tamanho:         1502000 - Buscas:140 - Sequencial: 1.05s - Binária(MergeSort): 1.06s - Melhor:Sequencial
+Tamanho:         1602000 - Buscas:140 - Sequencial: 1.12s - Binária(MergeSort): 1.12s - Melhor:Empate
+Tamanho:         1702000 - Buscas:140 - Sequencial: 1.19s - Binária(MergeSort): 1.19s - Melhor:Binária
+Tamanho:         1802000 - Buscas:140 - Sequencial: 1.26s - Binária(MergeSort): 1.26s - Melhor:Sequencial
+Tamanho:         1902000 - Buscas:140 - Sequencial: 1.33s - Binária(MergeSort): 1.31s - Melhor:Binária
+Tamanho:         2002000 - Buscas:140 - Sequencial: 1.40s - Binária(MergeSort): 1.38s - Melhor:Binária
+Tamanho:         2102000 - Buscas:140 - Sequencial: 1.47s - Binária(MergeSort): 1.45s - Melhor:Binária
+Tamanho:         2202000 - Buscas:140 - Sequencial: 1.54s - Binária(MergeSort): 1.54s - Melhor:Empate
+Tamanho:         2302000 - Buscas:140 - Sequencial: 1.61s - Binária(MergeSort): 1.62s - Melhor:Sequencial
+Tamanho:         2402000 - Buscas:140 - Sequencial: 1.68s - Binária(MergeSort): 1.70s - Melhor:Sequencial
+Tamanho:         2502000 - Buscas:140 - Sequencial: 1.76s - Binária(MergeSort): 1.77s - Melhor:Sequencial
+Tamanho:         2602000 - Buscas:140 - Sequencial: 1.82s - Binária(MergeSort): 1.87s - Melhor:Sequencial
+Tamanho:         2702000 - Buscas:140 - Sequencial: 1.89s - Binária(MergeSort): 1.94s - Melhor:Sequencial
+Tamanho:         2802000 - Buscas:140 - Sequencial: 1.96s - Binária(MergeSort): 2.03s - Melhor:Sequencial
+Pesquisa Binária foi mais rapida em: 16 de 29 dos testes. 55.17%
+
+Pesquisa Sequencial foi mais rapida em: 8 de 29 dos testes. 27.59%
+
+Empate em: 5 de 29 dos testes. 17.24%
+

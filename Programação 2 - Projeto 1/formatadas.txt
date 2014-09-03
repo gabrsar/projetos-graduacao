@@ -1,0 +1,7 @@
+Data Inicial: 03/05/2005 Data Final: 24/10/2010 => Total de Dias Decorridos: 2000 dias
+Data Inicial: 07/07/1990 Data Final: 08/03/1991 => Total de Dias Decorridos: 244 dias
+Data Inicial: 07/07/1990 Data Final: 03/11/2010 => Total de Dias Decorridos: 7424 dias
+Data Inicial: 07/07/1990 Data Final: 03/11/2010 => Total de Dias Decorridos: 7424 dias
+Data Inicial: 08/03/1990 Data Final: 07/07/1991 => Total de Dias Decorridos: 486 dias
+Data Inicial: 20/07/1969 Data Final: 03/11/2010 => Total de Dias Decorridos: 15081 dias
+Data Inicial: 07/07/2010 Data Final: 08/07/2010 => Total de Dias Decorridos: 1 dia

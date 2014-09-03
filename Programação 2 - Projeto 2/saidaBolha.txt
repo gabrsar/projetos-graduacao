@@ -1,0 +1,21 @@
+Arquivo de Resultados - Comparação de Métodos de Buscas
+
+TEMPO DE TRABALHO DA(S) FUNÇÃO/FUNÇÕES: 2.00s
+
+Testes:
+
+Tamanho:            2000 - Buscas:10000 - Sequencial: 0.09s - Binária(Bolha): 0.03s - Melhor:Binária
+Tamanho:            4000 - Buscas:10000 - Sequencial: 0.20s - Binária(Bolha): 0.12s - Melhor:Binária
+Tamanho:            6000 - Buscas:10000 - Sequencial: 0.29s - Binária(Bolha): 0.27s - Melhor:Binária
+Tamanho:            8000 - Buscas:10000 - Sequencial: 0.39s - Binária(Bolha): 0.48s - Melhor:Sequencial
+Tamanho:           10000 - Buscas:10000 - Sequencial: 0.49s - Binária(Bolha): 0.75s - Melhor:Sequencial
+Tamanho:           12000 - Buscas:10000 - Sequencial: 0.59s - Binária(Bolha): 1.07s - Melhor:Sequencial
+Tamanho:           14000 - Buscas:10000 - Sequencial: 0.68s - Binária(Bolha): 1.47s - Melhor:Sequencial
+Tamanho:           16000 - Buscas:10000 - Sequencial: 0.77s - Binária(Bolha): 1.92s - Melhor:Sequencial
+Tamanho:           18000 - Buscas:10000 - Sequencial: 0.87s - Binária(Bolha): 2.42s - Melhor:Sequencial
+Pesquisa Binária foi mais rapida em: 3 de 9 dos testes. 33.33%
+
+Pesquisa Sequencial foi mais rapida em: 6 de 9 dos testes. 66.67%
+
+Empate em: 0 de 9 dos testes. 0.00%
+

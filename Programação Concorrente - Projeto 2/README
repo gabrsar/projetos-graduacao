@@ -1,0 +1,10 @@
+Para compilar o programa: execute o comando make
+
+Para executar o programa: mpirun -np [NUMERO DE PROCESSOS] (-hostfile arquivo) ./summa-mpi [TAMANHO DA MATRIZ] (-q)
+
+O -q é para o programa executar sem as frescuras do Gabriel
+
+Para fazer os testes: ./tester.sh - Resolvemos isolar os testes em um arquivo separado por simplicidade e manutenção, principalmente quanto a execução no cluster.
+
+
+Boa correção :)

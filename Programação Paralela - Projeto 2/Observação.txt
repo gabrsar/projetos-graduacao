@@ -1,0 +1,3 @@
+Esse programa requer um arquivo como entrada e um arquivo como saida. Caso o arquivo de saida~não seja fornecido os resultados serão gravados em ORDENADO.txt como solicitado. Os arquivos de exemplo estão em ./testes
+
+O programa também gera um arquivo chamado profile.txt que contém os dados de profile. Os profiles descritos no relatório estão na pasta de testes.
