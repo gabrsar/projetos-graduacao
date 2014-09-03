@@ -1,4 +1,8 @@
-Programa-o-1---Projeto-1
-========================
+Projetos das disciplinas de graduação
+=====================================
 
-Primeiro projeto de programação 1 - 2010/1º Semestre - Professor Aleardo.
+Programação 1 - 2010/1° semestre
+Programação 2 - 2010/2° semestre
+Fundamentos de Sistemas de Computação - 2012/2° semestre
+Programação Concorrente - 2013/2° semestre
+Programação Paralela (High Performance Computing) - 2014/1° semestre
